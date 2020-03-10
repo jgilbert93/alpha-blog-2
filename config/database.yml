@@ -85,3 +85,5 @@ production:
   database: alpha_blog_production
   # username: alpha_blog
   # password: <%= ENV['ALPHA_BLOG_DATABASE_PASSWORD'] %>
+  
+  #test

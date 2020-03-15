@@ -24,6 +24,11 @@ class UsersController < ApplicationController
             redirect_to articles_path
         else
             render 'edit'
+        end
+    end
+    
+    def show
+       @user = User.find(params[:id]) 
     end
     
     private
